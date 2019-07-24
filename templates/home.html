@@ -1,0 +1,10 @@
+{% extends "layout.html" %} {% block content %}
+<div class="cont">
+  {% for post in posts %}
+  <div class="item">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.content }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}

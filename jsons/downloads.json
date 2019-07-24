@@ -1,0 +1,24 @@
+{
+  "downloads": [
+    {
+      "title": "Minecraft",
+      "content": "Build craft",
+      "website": "minecraft.net"
+    },
+    {
+      "title": "Blender",
+      "content": "3D model thing",
+      "website": "blender.org"
+    },
+    {
+      "title": "Steam",
+      "content": "Game thing",
+      "website": "store.steampowered.com"
+    },
+    {
+      "title": "Discord",
+      "content": "Talking thing",
+      "website": "discordapp.com"
+    }
+  ]
+}

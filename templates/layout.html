@@ -12,8 +12,16 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link href="css/nav.css" rel="stylesheet" type="text/css" />
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="{{ url_for('static', filename='nav.css') }}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="{{ url_for('static', filename='main.css') }}"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body>
     <div class="nav">
@@ -26,37 +34,6 @@
         <a href="#" class="navitem"> About </a>
       </nav>
     </div>
-
-    <div class="cont">
-      <div class="item">
-        <h3 class="greenback">Item one</h3>
-        <p>Content 1</p>
-      </div>
-
-      <div class="item">
-        <h3>Item two</h3>
-        <p>Content 2</p>
-      </div>
-
-      <div class="item">
-        <h3>Item three</h3>
-        <p>Content 3</p>
-      </div>
-
-      <div class="item">
-        <h3>Item three</h3>
-        <p>Content 3</p>
-      </div>
-
-      <div class="item">
-        <h3>Item three</h3>
-        <p>Content 3</p>
-      </div>
-
-      <div class="item">
-        <h3>Item three</h3>
-        <p>Content 3</p>
-      </div>
-    </div>
+    {% block content %} {% endblock content %}
   </body>
 </html>
