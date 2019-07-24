@@ -1,0 +1,20 @@
+body {
+  background: darkgray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont {
+  position: relative;
+  width: 50%;
+  right: -25%;
+  font-family: "Roboto", sans-serif;
+}
+
+.cont .item {
+  border: 3px solid black;
+  margin: 50px;
+  background: gray;
+  font-family: "Roboto", sans-serif;
+}

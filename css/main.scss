@@ -1,0 +1,25 @@
+* {
+  // font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: darkgray;
+  align-items: center;
+}
+.cont {
+  position: relative;
+  width: 50%;
+  right: -25%;
+  font-family: "Roboto", sans-serif;
+
+  .item {
+    border: 3px solid black;
+    margin: 50px;
+    background: gray;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+// .greenback {
+//   background: green;
+// }
