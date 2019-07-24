@@ -4,9 +4,9 @@
   <div class="item">
     <h3>{{ program.title }}</h3>
     <p>{{ program.content }}</p>
-    <!-- <p>{{ program.website }}</p> -->
-    {% if program.website %}
-    <a href="https://{{ program.website }}">https://{{ program.website }}</a>
+
+    {% if program.websiteurl %}
+    <a href="https://{{ program.websiteurl }}">{{ program.websitename }}</a>
     {% endif %}
   </div>
   {% endfor %}

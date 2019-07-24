@@ -1,24 +1,10 @@
 {
   "downloads": [
     {
-      "title": "Minecraft",
-      "content": "Build craft",
-      "website": "minecraft.net"
-    },
-    {
-      "title": "Blender",
-      "content": "3D model thing",
-      "website": "blender.org"
-    },
-    {
-      "title": "Steam",
-      "content": "Game thing",
-      "website": "store.steampowered.com"
-    },
-    {
-      "title": "Discord",
-      "content": "Talking thing",
-      "website": "discordapp.com"
+      "title": "Teller",
+      "content": "This is a program I made and it can remind you of things you have to do on an hourly basis.",
+      "websitename": "Github Page",
+      "websiteurl": "github.com/nauseousKibbles/teller"
     }
   ]
 }

@@ -27,11 +27,13 @@ posts = json.loads(jsonPosts())["posts"]
 @app.route("/home")
 def home():
     # print(homeContent())
-    return render_template("home.html", posts=posts)
+    return render_template("home.html", posts=posts, titletag="Home")
 
 
 @app.route("/downloads")
 def downloads():
     return render_template(
-        "downloads.html", downloads=json.loads(jsonDownloads())["downloads"]
+        "downloads.html",
+        titletag="Download",
+        downloads=json.loads(jsonDownloads())["downloads"],
     )
