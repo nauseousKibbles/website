@@ -1,92 +1,12 @@
 {
   "posts": [
     {
-      "title": "item one",
-      "content": "very cool"
+      "title": "This is my new post and I like lasagna reguarly.",
+      "content": "I also can type."
     },
     {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
-    },
-    {
-      "title": "item do",
-      "content": "sdfsdfsdf"
+      "title": "It is Aug 19 2019",
+      "content": "And I am starting to program some more."
     }
   ]
 }

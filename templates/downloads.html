@@ -6,9 +6,18 @@
     <p>{{ program.content }}</p>
 
     {% if program.websiteurl %}
-    <a href="https://{{ program.websiteurl }}">{{ program.websitename }}</a>
+    <a target="_blank" href="https://{{ program.websiteurl }}">{{
+      program.websitename
+    }}</a>
+
+    {% if program.notActive %} (Not active) {% endif %} {% endif %} {% if
+    program.debInstallCommand %}
+    <br />
+    <p>{{ program.debInstallCommand }}</p>
+
     {% endif %}
   </div>
   {% endfor %}
 </div>
+<script type="text/javascript" src="javascript/showAndHide.js"></script>
 {% endblock content %}

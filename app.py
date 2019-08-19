@@ -2,8 +2,11 @@
 # Started July 24, 2019.
 # During summer school.
 
+import json
+import csv
 from flask import Flask, render_template, url_for, request
-import csv, json
+version = "2019.8.19"
+
 
 app = Flask(__name__)
 
@@ -36,4 +39,13 @@ def downloads():
         "downloads.html",
         titletag="Download",
         downloads=json.loads(jsonDownloads())["downloads"],
+    )
+
+
+@app.route("/about")
+def about():
+    return render_template(
+        "about.html",
+        titletag="About",
+        version=version
     )

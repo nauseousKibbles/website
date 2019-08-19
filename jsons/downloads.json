@@ -4,7 +4,9 @@
       "title": "Teller",
       "content": "This is a program I made and it can remind you of things you have to do on an hourly basis.",
       "websitename": "Github Page",
-      "websiteurl": "github.com/nauseousKibbles/teller"
+      "websiteurl": "github.com/nauseousKibbles/teller",
+      "notActive": true,
+      "debInstallCommand": null
     }
   ]
 }
